@@ -7,7 +7,7 @@ public class NthSeries {
 
     public String seriesSum(int n) {
 
-        String result ;
+/*        String result ;
         double num = 0.0;
         double rrr = 1.0;
 
@@ -26,7 +26,13 @@ public class NthSeries {
 
         result = String.format("%.2f", num);
 
-        return result;
+        return result;*/
+
+        double sum = 0.0;
+        for (int i = 0; i < n; i++)
+            sum += 1.0 / (1 + 3 * i);
+
+        return String.format("%.2f", sum);
 
     }
 

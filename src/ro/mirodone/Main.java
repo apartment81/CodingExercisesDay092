@@ -7,8 +7,7 @@ public class Main {
 
         NthSeries n = new NthSeries();
 
-        n.seriesSum(5);
 
-        System.out.println(n.seriesSum(0));
+        System.out.println(n.seriesSum(1000));
     }
 }
